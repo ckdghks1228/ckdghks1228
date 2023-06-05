@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/ader.css">
+    <link rel="stylesheet" href="css/font.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/ader.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+</head>
+
+<body>
+
+    <!-- 상단 바 -->
+    <header class="header">
+        <ul class="icon">
+            <li class="heart"><img src="img/heartw.png" alt="heart"></li>
+            <li class="user"><img src="img/userw.png" alt="user"></li>
+            <li class="cart"><img src="img/cartw.png" alt="cart"></li>
+        </ul>
+        <nav class="h">
+            <a class="hamburger" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+    </header>
+    <h1><a href="#"><img src="img/logow.png" alt="logo"></a></h1>
+    <ul id="menu">
+        <!-- 우측 중앙 메뉴바  -->
+        <li class="on"><a href="#ban1-1">COLLECTION</a></li>
+        <li><a href="#ban2-1">Editorial</a></li>
+        <li><a href="#ban321">Collaboration</a></li>
+        <li><a href="#ban42">Collection</a></li>
+        <li><a href="#ban5-1">Origin</a></li>
+        <li><a href="#ban6-1">Significant</a></li>
+    </ul>
+    <!-- 햄버거 메뉴  -->
+    <nav class="hammenu">
+        <nav class="hamback">
+        <ul class="hh">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">주문조회</a></li>
+        </ul>
+        <ul class="haaaam">
+            <input name="search" class="search" required placeholder="검색">
+            <li class="sear"><img src="img/searchw.png" alt="search"></li>
+            
+            <li class="ham" id="ham1"><a href="#">Collections
+                    <img src="img/plusw.png" alt="plus"></a>
+                <ul class="sub">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">TOP 20</a></li>
+                    <li><a href="#">NEW LOGO</a></li>
+                    <li><a href="#">의류</a></li>
+                    <li><a href="#">가방</a></li>
+                    <li><a href="#">슈즈</a></li>
+                    <li><a href="#">주얼리</a></li>
+                    <li><a href="#">악세서리</a></li>
+                </ul>
+            </li>
+
+            <li class="ham"><a href="#">Significant
+                    <img src="img/plusw.png" alt="plus"></a>
+                <ul class="sub">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">의류</a></li>
+                    <li><a href="#">악세서리</a></li>
+                </ul>
+            </li>
+
+            <li class="ham"><a href="#">Origin
+                    <img src="img/plusw.png" alt="plus"></a>
+                <ul class="sub">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">의류</a></li>
+                    <li><a href="#">악세서리</a></li>
+                </ul>
+            </li>
+            <li class="ham"><a href="#">A-ventory
+                    <img src="img/plusw.png" alt="plus"></a>
+                <ul class="sub">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">팬시</a></li>
+                    <li><a href="#">악세서리</a></li>
+                    <li><a href="#">인터레스트</a></li>
+                </ul>
+            </li>
+            <li class="ham"><a href="#">Collaboration
+                <img src="img/plusw.png" alt="plus"></a>
+            <ul class="sub">
+                <li><a href="#">ADER x CONVERSE</a></li>
+                <li><a href="#">ADER x ZARA</a></li>
+                <li><a href="#">ADER x CASETiFY</a></li>
+                <li><a href="#">ADER x BIRKENSTOCK</a></li>
+                <li><a href="#">ADER x PUMA</a></li>
+                <li><a href="#">ADER x EASTPAK</a></li>
+                <li><a href="#">ADER x MAISON KITSUNÉ</a></li>
+                <li><a href="#">ADER x HELINOX</a></li>
+                <li><a href="#">ADER x CAMPER</a></li>
+                <li><a href="#">ADER x BE@RBRICK</a></li>
+                <li><a href="#">ADER x ALPHA</a></li>
+                <li><a href="#">INDUSTRIES</a></li>
+                <li><a href="#">10 CORSO COMO</a></li>
+                <li><a href="#">G-SHOCK</a></li>
+            </ul>
+        </ul>
+    </nav>
+    </nav>
+
+
+        <!--------------- web 메뉴-------------------->
+        <article id="webmenu">
+         <nav class="web">
+            <ul class="aderlogo">
+                <li><img src="img/logow.png" alt="logo"></li>
+            </ul>
+            <ul class="web1">
+                    <li><a class="fadetoggle" href="#" onclick="return false;">컬렉션</a></li>
+                    <li><a class="fadetoggle" href="#" onclick="return false;">시그니피컨트</a></li>
+                    <li><a class="fadetoggle" href="#" onclick="return false;">오리진</a> </li>
+                    <li><a class="fadetoggle" href="#" onclick="return false;">에이벤토리</a></li>
+                    <li><a class="fadetoggle" href="#" onclick="return false;">콜라보레이션</a></li>
+            </ul>  
+            <ul class="web2">
+                <li><a href="#" onclick="return false;">Language ></a></li>
+                <li><img src="img/searchw.png" alt="search"></li>
+                <li><img src="img/cartw.png" alt="cart"></li>
+                <li><img src="img/userw.png" alt="user"></li>
+            </ul>
+                <nav class="subbox">
+                <nav class="submenu">
+                    <ul>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">TOP20</a></li>
+                        <li><a href="#">NEW LOGO</a></li>
+                        <li><a href="#">의류</a></li>
+                        <li><a href="#">가방</a></li>
+                        <li><a href="#">슈즈</a></li>
+                        <li><a href="#">주얼리</a></li>
+                        <li><a href="#">악세서리</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">의류</a></li>
+                        <li><a href="#">악세서리</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">슈즈</a></li>
+                        <li><a href="#">악세서리</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">팬시</a></li>
+                        <li><a href="#">악세서리</a></li>
+                        <li><a href="#">인터레스트</a></li>
+                    </ul>
+                    <div class="collbox">
+                    <ul>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">ADER x CONVERSE</a></li>
+                        <li><a href="#">ADER x ZARA</a></li>
+                        <li><a href="#">ADER x CASETiFY</a></li>
+                        <li><a href="#">ADER x BIRKENSTOCK</a></li>
+                        <li><a href="#">ADER x PUMA</a></li>
+                        <li><a href="#">ADER x EASTPAK</a></li>
+                        <li><a href="#">ADER x MAISON KITSUNÉ</a></li>
+                        <li><a href="#">ADER x HELINOX</a></li>
+                        <li><a href="#">ADER x CAMPER</a></li>
+                        <li><a href="#">ADER x BE@RBRICK</a></li>
+                        <li><a href="#">ADER x ALPHA</a></li>
+                        <li><a href="#">INDUSTRIES</a></li>
+                        <li><a href="#">10 CORSO COMO</a></li>
+                        <li><a href="#">G-SHOCK</a></li>
+                    </ul>
+                </div>
+                </nav>
+            </nav>
+    </nav>
+    </article>
+
+
+
+
+    <!-- 메인 이미지 -->
+    <nav class="mainimg">
+        <section>
+            <section id="ban1" class="main">
+                <video
+                    src="https://player.vimeo.com/progressive_redirect/playback/815224239/rendition/360p/file.mp4?loc=external&amp;signature=06e0c4d1553d2b944aab29db2b19d9c434447bdd07c4b48b68d08b22b01038ec"
+                    loop="" autoplay="" muted="" playsinline=""></video>
+                <div class="m1">
+                    <h2 class="coll">ADER ERROR The First Sneakers<br>'Log' Collection</h2>
+                    <div class="btn">
+                        <a href="#" class="b1" onclick="return false;">컬렉션 더보기</a>
+                        <a href="#" class="b2" onclick="return false;">제품 보기</a>
+                    </div>
+                </div>
+            </section>
+            <section id="ban1-1" class="main">
+                <video src="img/video.mp4" loop="" autoplay="" muted="" playsinline=""></video>
+                <div class="m1">
+                    <h2 class="coll">ADER ERROR The First Sneakers<br>'Log' Collection</h2>
+                    <div class="btn-1">
+                        <a href="#" class="b1" onclick="return false;">컬렉션 더보기</a>
+                        <a href="#" class="b2" onclick="return false;">제품 보기</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-------------------------------------------------------------------->
+
+        <section>
+            <section id="ban2" class="main">
+                <img src="img/main2-1.png" alt="main">
+                <div class="m1">
+                    <div class="btn2">
+                        <a href="#" class="b3" onclick="return false;">에디토리얼 더보기</a>
+                    </div>
+                </div>
+            </section>
+            <!---------------------------------------------------------------------->
+            <section id="ban2-1" class="main">
+                <img src="img/main2.png" alt="main">
+                <div class="m1-2">
+                    <div class="btn2-1">
+                        <a href="#" class="b3" onclick="return false;">에디토리얼 더보기</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!---------------------------------------------------------------------->
+        <section>
+            <section class="converse2">
+                <div id="ban32" class="main">
+                    <ul class="abc2">
+                        <li><img src="img/c.png" alt="컨버스"></img></li>
+                        <li><span class="top2">ADER ERROR X CONVERS</span><br><span class="bottom2"> ‘Create Next : The new
+                                is not new’</span>
+                            <p>‘Create Next : The new is not new’라는
+                                두 브랜드의 슬로건에서 영감을 받아 새로움을 창조하기 위해서는 과거를 돌아본다는 철학을 통해 전개됩니다.<br>
+                                이번 협업 컬렉션은 재편집과 재해석의 방식으로 탄생한 창작 활동들을 통해 새로운 경험을 제안하며,
+                                일상에서 지나치거나 혹은 익숙해진 것들을 바라보고 의심하며 세상에 없던 새로운 것을 도출합니다.</p>
+                        </li>
+                    </ul>
+                    <div class="m12">
+                        <div class="btn32">
+                            <a href="#" class="b4" onclick="return false;">콜라보레이션 더보기</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!------------------------------------------------->
+            <section class="converse21">
+                <div id="ban32" class="main">
+                    <ul class="abc2">
+                        <li><img src="img/c2.png" alt="컨버스"></img></li>
+                        <li><span class="top2">ADER ERROR X CONVERS</span><br><span class="bottom2"> ‘Create Next : The new
+                                is not new’</span>
+                            <p>‘Create Next : The new is not new’라는
+                                두 브랜드의 슬로건에서 영감을 받아 새로움을 창조하기 위해서는 과거를 돌아본다는 철학을 통해 전개됩니다.<br>
+                                이번 협업 컬렉션은 재편집과 재해석의 방식으로 탄생한 창작 활동들을 통해 새로운 경험을 제안하며,
+                                일상에서 지나치거나 혹은 익숙해진 것들을 바라보고 의심하며 세상에 없던 새로운 것을 도출합니다.</p>
+                        </li>
+                    </ul>
+                    <div class="m12">
+                        <div class="btn32">
+                            <a href="#" class="b4" onclick="return false;">콜라보레이션 더보기</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-------------------------------------------->
+            <section class="converse22">
+                <div id="ban321" class="main">
+                    <ul class="abc2">
+                        <li><img src="img/ccc.png" alt="컨버스"></img></li>
+                        <li><span class="top2">ADER ERROR X CONVERS</span><br><span class="bottom2"> ‘Create Next : The new
+                                is not new’</span>
+                            <p>‘Create Next : The new is not new’라는
+                                두 브랜드의 슬로건에서 영감을 받아 새로움을 창조하기 위해서는 과거를 돌아본다는 철학을 통해 전개됩니다.<br>
+                                이번 협업 컬렉션은 재편집과 재해석의 방식으로 탄생한 창작 활동들을 통해 새로운 경험을 제안하며,
+                                일상에서 지나치거나 혹은 익숙해진 것들을 바라보고 의심하며 세상에 없던 새로운 것을 도출합니다.</p>
+                        </li>
+                    </ul>
+                    <div class="m12">
+                        <div class="btn32-1">
+                            <a href="#" class="b4" onclick="return false;">콜라보레이션 더보기</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-------------------------------------------->
+        <section>
+            <section id="ban4" class="main">
+                <img src="img/cp.png" alt="mobile">
+                <div class="m1">
+                    <h3>Collection Products</h3>
+                    <div class="btn4">
+                        <a href="#" class="b5" onclick="return false;">제품 더보기</a>
+                    </div>
+                </div>
+            </section>
+            <!-------------------------------------------->
+            <section id="ban41" class="main">
+                <img src="img/cp1.png" alt="tablet">
+                <div class="m1">
+                    <h3>Collection Products</h3>
+                    <div class="btn4">
+                        <a href="#" class="b5" onclick="return false;">제품 더보기</a>
+                    </div>
+                </div>
+            </section>
+            <!--------------------------->
+            <section id="ban42" class="main">
+                <img src="img/cp3.png" alt="pc">
+                <div class="m1-4">
+                    <h3>Collection Products</h3>
+                    <div class="btn4-1">
+                        <a href="#" class="b5" onclick="return false;">제품 더보기</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-------------------------------------------->
+        <section>
+            <section id="ban5" class="main">
+                <img src="img/or.png" alt="main">
+                <div class="m1">
+                    <h4>Origin Products</h4>
+                    <div class="btn5">
+                        <a href="#" class="b6" onclick="return false;">제품 더보기</a>
+                    </div>
+                </div>
+            </section>
+            <!-------------------------------------------->
+            <section id="ban5-0" class="main">
+                <img src="img/or1.png" alt="main">
+                <div class="t1">
+                    <h4>Origin Products</h4>
+                    <div class="btn5t">
+                        <a href="#" class="b6" onclick="return false;">제품 더보기</a>
+                    </div>
+                </div>
+            </section>
+            <!----------------------------->
+            <section id="ban5-1" class="main">
+                <img src="img/origin2.png" alt="main">
+                <div class="m1">
+                    <h4>Origin Products</h4>
+                    <div class="btn5-1">
+                        <a href="#" class="b6" onclick="return false;">제품 더보기</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-------------------------------------------->
+
+        <section>
+            <section id="ban6" class="main">
+                <img src="img/sig.png" alt="main">
+                <div class="m1">
+                    <h5>NEW LINE `Significant`</h5>
+                    <p class="sig">시그니피컨트는 아더에러의 컨템포러리 라인으로<br>
+                        아카이브에서 발견한 시그니처인 TRS로고와<br>
+                        실루엣을 간결한 형태로 디자인하여 사람들에게 접근성을 높였으며<br>
+                        자신을 나타내는 새로운 기준의 본질과 핏을 제시한다.</p>
+                    <div class="btn6">
+                        <a href="#" class="b7" onclick="return false;">제품 더보기</a>
+                    </div>
+                </div>
+            </section>
+            <!----------------------------->
+            <section id="ban6-1" class="main">
+                <img src="img/sig1.png" alt="main">
+                <div class="m1-3">
+                    <h5>NEW LINE `Significant`</h5>
+                    <p class="sig">시그니피컨트는 아더에러의 컨템포러리 라인으로
+                        아카이브에서 발견한 시그니처인 TRS로고와<br>
+                        실루엣을 간결한 형태로 디자인하여 사람들에게 접근성을 높였으며<br>
+                        자신을 나타내는 새로운 기준의 본질과 핏을 제시한다.</p>
+                    <div class="btn6-1">
+                        <a href="#" class="b7" onclick="return false;">제품 더보기</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </nav>
+
+    <!-- mobile/tablet footer  -->
+    <footer class="footer">
+        <article class="footer1">
+            
+            <dl class="fot1">
+                <dt><a href="#" onclick="return false;">ADER 소개
+                    <img src="img/plus.png" alt="plus"></a>
+                    <p>ADER는 2014년 설립되었으며 패션을 기반으로 한 문화 커뮤니케이션 브랜드입니다.<br>
+                        ADER는 ‘but near missed things’이라는 브랜드 슬로건, 철학을 바탕으로 사람들이 일상에서 쉽게 놓치고 있는 것들을 익숙하지만 낯설고,<br>
+                        새롭게 느낄 수 있도록 표현하는 활동에 집중하고 있으며, 사진, 영상, 공간, 디자인, 예술, 가구 등 문화 콘텐츠를 우리의 방식으로 재편집하여 새로운 문화를
+                        제안합니다.<br>
+                        <br>
+                        ADER는 모든 영역 간의 커뮤니케이션 디자인하는 것을 브랜드 핵심 가치로서 추구합니다.</p>
+                </dt>
+            </dl>
+
+            <dl class="fot1">
+                <dt><a href="#" onclick="return false;">Blue Mark
+                    <img src="img/plus.png" alt="plus"></a>
+                    <p>블루 마크는 아더 브랜드의 가품 근절을 통해 가품으로부터 소비자를 보호하고 정품인증과 소비자 보호를 넘어 청렴한 문화 의식을 알리기 위한 문화 캠페인이다.<br>
+                        이를 위해 만들어진 ‘블루 마크 택’은 아더가 제조한 정식 제품임을 보증하는 역할을 한다. 이 캠페인은 블루 컬러에서부터 시작되는데,<br>
+                        여기서 블루라는 컬러는‘청렴함, 순수함, 오리지널리티’의 의미를 함축하고 있다.<br>
+                        <br>
+                        <button>블루마크</button></p>
+                </dt>
+            </dl>
+
+            <dl class="fot1">
+                <dt><a href="#" onclick="return false;">고객서비스
+                    <img src="img/plus.png" alt="plus"></a>
+                    <ul class="sv">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">문의하기</a></li>
+                        <li><a href="#">온라인스토어 이용 가이드</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                    </ul>
+                </dt>
+            </dl>
+
+            <dl class="fot1">
+                <dt><a href="#" onclick="return false;">Language
+                    <img src="img/plus.png" alt="plus"></a>
+                    <ul class="sv">
+                        <li><a href="#">한국어</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">中文</a></li>
+                    </ul>
+                </dt>
+            </dl>
+
+            
+            <dl class="fot1">
+                <dt><a href="#" onclick="return false;">회사 정보
+                    <img src="img/plus.png" alt="plus"></a>
+                    <p>Company ADER | Business Name FIVE SPACE CO.,LTD | Business License 760-87-01757 |<br>
+                        MAIL-ORDER LICENSE NO. 2021-서울성동-01588 | CEO Hann | office ADER 3F 53, Yeonmujang-gil,
+                        Seongdong-gu, Seoul, Korea<br>
+                        <br>
+                        C/S office ADER 3F 53, Yeonmujang-gil, Seongdong-gu, Seoul, Korea<br>
+                        TEL. 02-792-2232 | Office hour Mon - Fri AM 10:00 - PM 5:00©2021 <br>
+                        <br>
+                        ADER All Rights Reserved </p>
+                </dt>
+            </dl>
+
+            <dl class="sns">
+                <dt>
+                    <img src="img/a.png" alt="ader">
+                    <img src="img/y.png" alt="youtube">
+                    <img src="img/k.png" alt="kakao">
+                    <img src="img/i.png" alt="insta">
+                    <img src="img/p.png" alt="pinter">
+                    <p class="mm">@2021 ADER All Rights Reserved</p>
+                </dt>
+            </dl>
+            </ul>
+        </article>
+    </footer>
+
+
+    <!-- web footer  -->
+    <footer class="footerweb">
+        <div class="left">
+            <section class="foot1">
+                <h7>ADER</h7>
+                <p>ADER(아더)는 2014년 설립되었으며 패션을 기반으로 한 문화 커뮤니케이션 브랜드입니다.<br>
+                    ADER는 ‘but near missed things’ 이라는 브랜드 슬로건, 철학을 바탕으로 사람들이 일상에서 쉽게 놓치고 있는 것들을 익숙하지만 낯설고,<br>
+                    새롭게 느낄 수 있도록 표현하는 활동에 집중하고 있으며, 사진, 영상, 공간, 디자인, 예술, 가구 등 문화 콘텐츠를 우리의 방식으로 재편집하여 새로운 문화를 제안합니다.<br>
+                    <br>
+                    ADER는 모든 영역 간의 커뮤니케이션 디자인하는 것을 브랜드 핵심 가치로서 추구합니다.</p>
+            </section>
+
+            <section class="foot2">
+                <h7>Blue Mark</h7>
+                <p>블루 마크는 아더 브랜드의 가품 근절을 통해 가품으로부터 소비자를 보호하고 정품인증과 소비자 보호를 넘어 청렴한 문화 의식을 알리기 위한 문화 캠페인이다.<br>
+                    이를 위해 만들어진 ‘블루 마크 택’은 아더가 제조한 정식 제품임을 보증하는 역할을 한다. 이 캠페인은 블루 컬러에서부터 시작되는데, 여기서 블루라는 컬러는<br>
+                    ‘청렴함, 순수함, 오리지널리티’의 의미를 함축하고 있다.</p>
+                <button>블루마크</button>
+            </section>
+
+        </div>
+        <div class="right">
+            <section class="foot4">
+                <h7>고객 서비스</h7>
+                <ul>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">문의하기</a></li>
+                    <li><a href="#">스토어 이용 가이드</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                </ul>
+            </section>
+
+            <section class="foot3">
+                <h7>회사정보</h7>
+                <p>Company ADER | Business Name FIVE SPACE CO.,LTD | Business License 760-87-01757 |<br>
+                    MAIL-ORDER LICENSE NO. 2021-서울성동-01588 | CEO Hann | office ADER 3F 53, Yeonmujang-gil, Seongdong-gu,
+                    Seoul, Korea<br>
+                    <br>
+                    C/S office ADER 3F 53, Yeonmujang-gil, Seongdong-gu, Seoul, Korea<br>
+                    TEL. 02-792-2232 | Office hour Mon - Fri AM 10:00 - PM 5:00<br>
+                    <br>
+                    ©2021 ADER All Rights Reserved</p>
+            </section>
+
+            <section class="foot5">
+                <ul>
+                    <li><a href="#"><img src="img/a.png" alt="ader"></a></li>
+                    <li><a href="#"><img src="img/y.png" alt="youtube"></a></li>
+                    <li><a href="#"><img src="img/k.png" alt="kakao"></a></li>
+                    <li><a href="#"><img src="img/i.png" alt="insta"></a></li>
+                    <li><a href="#"><img src="img/p.png" alt="pinter"></a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+
+</body>
+
+</html>
